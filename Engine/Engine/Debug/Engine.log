@@ -1,0 +1,19 @@
+﻿Построение начато 18.08.2017 15:55:22.
+     1>Проект "C:\Users\Ден\Documents\Visual Studio 2012\Projects\Engine\Engine\Engine.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         F:\ProgramFiles\VS2012\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Interface.cpp
+         Interface.cpp
+     1>c:\users\ден\documents\visual studio 2012\projects\engine\engine\Interface.h(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\ProgramFiles\VS2012\VC\include\stdio.h(218): см. объявление "fopen"
+     1>c:\users\ден\documents\visual studio 2012\projects\engine\engine\Interface.h(206): warning C4018: <: несоответствие типов со знаком и без знака
+         F:\ProgramFiles\VS2012\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Ден\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         F:\ProgramFiles\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ден\Documents\Visual Studio 2012\Projects\Engine\Debug\Engine.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Engine.Interface.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ден\Documents\Visual Studio 2012\Projects\Engine\Debug\Engine.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Interface.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Engine.vcxproj -> C:\Users\Ден\Documents\Visual Studio 2012\Projects\Engine\Debug\Engine.exe
+     1>Построение проекта "C:\Users\Ден\Documents\Visual Studio 2012\Projects\Engine\Engine\Engine.vcxproj" завершено (целевые объекты Rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.23
